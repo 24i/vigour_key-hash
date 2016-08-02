@@ -11,9 +11,9 @@ const testCases = [
   123456789
 ]
 
-test('keyHash', (t) => {
+test('keyHash', function (t) {
   t.plan(testCases.length)
-  testCases.forEach((item) => {
+  testCases.forEach(function (item) {
     var hsh = keyHash(item)
     t.equals(isNumberLike(hsh), true, 'keyHash(' + item + ') return a number')
   })
