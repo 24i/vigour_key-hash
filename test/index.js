@@ -1,10 +1,10 @@
 'use strict'
 
-const test = require('tape')
-const keyHash = require('../')
-const isNumberLike = require('is-number-like')
+var test = require('tape')
+var keyHash = require('../')
+var isNumberLike = require('is-number-like')
 
-const testCases = [
+var testCases = [
   'ASDFLKJH56789)*&^$`Ω≈ç√¥¨∆†',
   'hello',
   'bye',
