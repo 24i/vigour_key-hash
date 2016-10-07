@@ -1,6 +1,6 @@
 {
   "name": "key-hash",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Very simple hash that converts strings to numbers",
   "main": "lib/index.js",
   "scripts": {
