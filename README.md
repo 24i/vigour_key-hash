@@ -18,6 +18,6 @@ Very simple hash that converts strings to numbers
 <!-- VDOC END -->
 
 ```javascript
-var keyHash = require('key-hash')
-var hash = keyHash('something')
+const keyHash = require('key-hash')
+const hash = keyHash('something')
 ```

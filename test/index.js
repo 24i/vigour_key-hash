@@ -1,10 +1,10 @@
 'use strict'
 
-var test = require('tape')
-var keyHash = require('../')
-var isNumberLike = require('is-number-like')
+const test = require('tape')
+const keyHash = require('../')
+const isNumberLike = require('is-number-like')
 
-var testCases = [
+const testCases = [
   'ASDFLKJH56789)*&^$`Ω≈ç√¥¨∆†',
   'hello',
   'bye',
@@ -14,7 +14,7 @@ var testCases = [
 test('keyHash', function (t) {
   t.plan(testCases.length)
   testCases.forEach(function (item) {
-    var hsh = keyHash(item)
+    const hsh = keyHash(item)
     t.equals(isNumberLike(hsh), true, 'keyHash(' + item + ') return a number')
   })
 })
