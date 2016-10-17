@@ -30,7 +30,8 @@
   ],
   "dependencies": {
     "is-number-like": "^1.0.0",
-    "bubleify": "^0.5.1"
+    "bubleify": "^0.5.1",
+    "envify": "^3.4.0"
   },
   "engines": {},
   "devDependencies": {
